@@ -22,7 +22,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nDW-g8-X9x">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nDW-g8-X9x">
                                 <rect key="frame" x="0.0" y="73.5" width="414" height="700.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -34,7 +34,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hats" translatesAutoresizingMaskIntoConstraints="NO" id="1TZ-yg-1AA">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="159"/>
+                                                    <rect key="frame" x="0.0" y="3" width="414" height="153"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="150" id="vIC-1A-1ru"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HATS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owk-Bq-jwT">
                                                     <rect key="frame" x="169.5" y="59" width="75" height="41"/>
@@ -45,15 +48,15 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="1TZ-yg-1AA" secondAttribute="trailing" id="0qb-kr-IYw"/>
-                                                <constraint firstItem="1TZ-yg-1AA" firstAttribute="top" secondItem="txs-Ea-iau" secondAttribute="top" id="71t-Pq-89j"/>
+                                                <constraint firstItem="1TZ-yg-1AA" firstAttribute="top" secondItem="txs-Ea-iau" secondAttribute="top" constant="3" id="71t-Pq-89j"/>
                                                 <constraint firstItem="1TZ-yg-1AA" firstAttribute="leading" secondItem="txs-Ea-iau" secondAttribute="leading" id="SUD-je-gFf"/>
                                                 <constraint firstItem="Owk-Bq-jwT" firstAttribute="centerY" secondItem="txs-Ea-iau" secondAttribute="centerY" id="qgt-5o-pBX"/>
                                                 <constraint firstItem="Owk-Bq-jwT" firstAttribute="centerX" secondItem="txs-Ea-iau" secondAttribute="centerX" id="tmB-OA-1Yu"/>
-                                                <constraint firstAttribute="bottom" secondItem="1TZ-yg-1AA" secondAttribute="bottom" id="xjw-9D-0cu"/>
+                                                <constraint firstAttribute="bottom" secondItem="1TZ-yg-1AA" secondAttribute="bottom" constant="3" id="xjw-9D-0cu"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="CategoriesImage" destination="txs-Ea-iau" id="9Vl-aa-VQv"/>
+                                            <outlet property="CategoriesImage" destination="1TZ-yg-1AA" id="sXb-jP-iL0"/>
                                             <outlet property="CategoriesLabel" destination="Owk-Bq-jwT" id="3rF-3J-eI9"/>
                                         </connections>
                                     </tableViewCell>

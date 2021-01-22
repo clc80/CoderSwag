@@ -9,19 +9,12 @@ import UIKit
 
 class CategoriesTableViewCell: UITableViewCell {
     //MARK: - Properties
-    @IBOutlet var CategoriesImage: CategoriesTableViewCell!
+    @IBOutlet var CategoriesImage: UIImageView!
     @IBOutlet var CategoriesLabel: UILabel!
     
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func updateViews(category: Category) {
+        CategoriesImage.image = UIImage(named: category.imageName)
+        CategoriesLabel.text = category.title
     }
 
 }
