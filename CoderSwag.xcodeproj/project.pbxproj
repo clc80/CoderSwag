@@ -17,6 +17,7 @@
 		3A3E143025BA9DA40020A7DA /* CoderSwagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E142F25BA9DA40020A7DA /* CoderSwagUITests.swift */; };
 		3A3E144725BAA12F0020A7DA /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E144625BAA12F0020A7DA /* CategoriesTableViewCell.swift */; };
 		3A3E144F25BAA38E0020A7DA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E144E25BAA38E0020A7DA /* Category.swift */; };
+		3A3E145525BAA4B40020A7DA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E145425BAA4B40020A7DA /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3A3E143125BA9DA40020A7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A3E144625BAA12F0020A7DA /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
 		3A3E144E25BAA38E0020A7DA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3A3E145425BAA4B40020A7DA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3A3E144525BAA0CE0020A7DA /* Model */,
 				3A3E144425BAA0C80020A7DA /* View */,
 				3A3E144325BAA0C10020A7DA /* Controller */,
+				3A3E145325BAA4A60020A7DA /* Services */,
 				3A3E140D25BA9DA10020A7DA /* AppDelegate.swift */,
 				3A3E140F25BA9DA10020A7DA /* SceneDelegate.swift */,
 				3A3E141325BA9DA10020A7DA /* Main.storyboard */,
@@ -156,6 +159,14 @@
 				3A3E144E25BAA38E0020A7DA /* Category.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3A3E145325BAA4A60020A7DA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3A3E145425BAA4B40020A7DA /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 				3A3E141225BA9DA10020A7DA /* CategoriesViewController.swift in Sources */,
 				3A3E144F25BAA38E0020A7DA /* Category.swift in Sources */,
 				3A3E144725BAA12F0020A7DA /* CategoriesTableViewCell.swift in Sources */,
+				3A3E145525BAA4B40020A7DA /* DataService.swift in Sources */,
 				3A3E140E25BA9DA10020A7DA /* AppDelegate.swift in Sources */,
 				3A3E141025BA9DA10020A7DA /* SceneDelegate.swift in Sources */,
 			);
