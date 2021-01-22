@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		3A3E140E25BA9DA10020A7DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E140D25BA9DA10020A7DA /* AppDelegate.swift */; };
 		3A3E141025BA9DA10020A7DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E140F25BA9DA10020A7DA /* SceneDelegate.swift */; };
-		3A3E141225BA9DA10020A7DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E141125BA9DA10020A7DA /* ViewController.swift */; };
+		3A3E141225BA9DA10020A7DA /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E141125BA9DA10020A7DA /* CategoriesViewController.swift */; };
 		3A3E141525BA9DA10020A7DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E141325BA9DA10020A7DA /* Main.storyboard */; };
 		3A3E141725BA9DA40020A7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E141625BA9DA40020A7DA /* Assets.xcassets */; };
 		3A3E141A25BA9DA40020A7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E141825BA9DA40020A7DA /* LaunchScreen.storyboard */; };
 		3A3E142525BA9DA40020A7DA /* CoderSwagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E142425BA9DA40020A7DA /* CoderSwagTests.swift */; };
 		3A3E143025BA9DA40020A7DA /* CoderSwagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E142F25BA9DA40020A7DA /* CoderSwagUITests.swift */; };
+		3A3E144725BAA12F0020A7DA /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E144625BAA12F0020A7DA /* CategoriesTableViewCell.swift */; };
+		3A3E144F25BAA38E0020A7DA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E144E25BAA38E0020A7DA /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 		3A3E140A25BA9DA10020A7DA /* CoderSwag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderSwag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3E140D25BA9DA10020A7DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A3E140F25BA9DA10020A7DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A3E141125BA9DA10020A7DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A3E141125BA9DA10020A7DA /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		3A3E141425BA9DA10020A7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A3E141625BA9DA40020A7DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A3E141925BA9DA40020A7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		3A3E142B25BA9DA40020A7DA /* CoderSwagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoderSwagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3E142F25BA9DA40020A7DA /* CoderSwagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoderSwagUITests.swift; sourceTree = "<group>"; };
 		3A3E143125BA9DA40020A7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3E144625BAA12F0020A7DA /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		3A3E144E25BAA38E0020A7DA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		3A3E140C25BA9DA10020A7DA /* CoderSwag */ = {
 			isa = PBXGroup;
 			children = (
+				3A3E144525BAA0CE0020A7DA /* Model */,
+				3A3E144425BAA0C80020A7DA /* View */,
+				3A3E144325BAA0C10020A7DA /* Controller */,
 				3A3E140D25BA9DA10020A7DA /* AppDelegate.swift */,
 				3A3E140F25BA9DA10020A7DA /* SceneDelegate.swift */,
-				3A3E141125BA9DA10020A7DA /* ViewController.swift */,
 				3A3E141325BA9DA10020A7DA /* Main.storyboard */,
 				3A3E141625BA9DA40020A7DA /* Assets.xcassets */,
 				3A3E141825BA9DA40020A7DA /* LaunchScreen.storyboard */,
@@ -126,6 +132,30 @@
 				3A3E143125BA9DA40020A7DA /* Info.plist */,
 			);
 			path = CoderSwagUITests;
+			sourceTree = "<group>";
+		};
+		3A3E144325BAA0C10020A7DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A3E141125BA9DA10020A7DA /* CategoriesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A3E144425BAA0C80020A7DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A3E144625BAA12F0020A7DA /* CategoriesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A3E144525BAA0CE0020A7DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A3E144E25BAA38E0020A7DA /* Category.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A3E141225BA9DA10020A7DA /* ViewController.swift in Sources */,
+				3A3E141225BA9DA10020A7DA /* CategoriesViewController.swift in Sources */,
+				3A3E144F25BAA38E0020A7DA /* Category.swift in Sources */,
+				3A3E144725BAA12F0020A7DA /* CategoriesTableViewCell.swift in Sources */,
 				3A3E140E25BA9DA10020A7DA /* AppDelegate.swift in Sources */,
 				3A3E141025BA9DA10020A7DA /* SceneDelegate.swift in Sources */,
 			);
