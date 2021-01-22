@@ -18,6 +18,7 @@
 		3A3E144725BAA12F0020A7DA /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E144625BAA12F0020A7DA /* CategoriesTableViewCell.swift */; };
 		3A3E144F25BAA38E0020A7DA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E144E25BAA38E0020A7DA /* Category.swift */; };
 		3A3E145525BAA4B40020A7DA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E145425BAA4B40020A7DA /* DataService.swift */; };
+		3A3E145D25BAB36B0020A7DA /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E145C25BAB36B0020A7DA /* ProductCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3A3E144625BAA12F0020A7DA /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
 		3A3E144E25BAA38E0020A7DA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		3A3E145425BAA4B40020A7DA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		3A3E145C25BAB36B0020A7DA /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				3A3E144625BAA12F0020A7DA /* CategoriesTableViewCell.swift */,
+				3A3E145C25BAB36B0020A7DA /* ProductCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			files = (
 				3A3E141225BA9DA10020A7DA /* CategoriesViewController.swift in Sources */,
 				3A3E144F25BAA38E0020A7DA /* Category.swift in Sources */,
+				3A3E145D25BAB36B0020A7DA /* ProductCollectionViewCell.swift in Sources */,
 				3A3E144725BAA12F0020A7DA /* CategoriesTableViewCell.swift in Sources */,
 				3A3E145525BAA4B40020A7DA /* DataService.swift in Sources */,
 				3A3E140E25BA9DA10020A7DA /* AppDelegate.swift in Sources */,
