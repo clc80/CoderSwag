@@ -23,6 +23,7 @@
 		3A3E146625BAB7910020A7DA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E145425BAA4B40020A7DA /* DataService.swift */; };
 		3A3E146A25BAB8CD0020A7DA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E144E25BAA38E0020A7DA /* Category.swift */; };
 		3A3E146E25BAB8D00020A7DA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E146125BAB4610020A7DA /* Product.swift */; };
+		3AC38D2725BD3F3500FAEF0A /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC38D2625BD3F3500FAEF0A /* ProductsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		3A3E145425BAA4B40020A7DA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		3A3E145C25BAB36B0020A7DA /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		3A3E146125BAB4610020A7DA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3AC38D2625BD3F3500FAEF0A /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				3A3E141125BA9DA10020A7DA /* CategoriesViewController.swift */,
+				3AC38D2625BD3F3500FAEF0A /* ProductsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				3A3E145D25BAB36B0020A7DA /* ProductCollectionViewCell.swift in Sources */,
 				3A3E144725BAA12F0020A7DA /* CategoriesTableViewCell.swift in Sources */,
 				3A3E145525BAA4B40020A7DA /* DataService.swift in Sources */,
+				3AC38D2725BD3F3500FAEF0A /* ProductsViewController.swift in Sources */,
 				3A3E140E25BA9DA10020A7DA /* AppDelegate.swift in Sources */,
 				3A3E141025BA9DA10020A7DA /* SceneDelegate.swift in Sources */,
 			);
